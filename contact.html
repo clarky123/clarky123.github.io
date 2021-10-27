@@ -1,0 +1,48 @@
+<!--Sets the document type -->
+<!DOCTYPE html>
+<html>
+	<!--The not so visible bits of code like the title of page and favicon and stylesheets -->
+	<head>
+	<!--Title of a page. The title of a tab -->
+		<title> Learning site </title>
+		<link rel=stylesheet type="text/css" href="Static\style.css"/>
+		<script src="https://kit.fontawesome.com/39c4ebb246.js" crossorigin="anonymous"></script>
+	</head>
+	<!--Main body of code. Stuff that is actually visible -->
+	<body>
+		<!-- Div tags are used to group elements on a page into sections -->
+		<div id = "Header">
+			<nav class="Nav">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+			</nav>
+			<!--Creates the largest header possible h1 - h6 -->
+			<h1> Contact </h1>
+		</div>
+		<div class="container">
+			<form action="">
+				<label for="fname">First Name</label>
+				<input type="text" id="fname" name="firstname" placeholder="Your name..">
+				<label for="lname">Last Name</label>
+				<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+				<label for="country">Country</label>
+				<select id="country" name="country">
+				  <option value="england">England</option>
+				  <option value="scotland">Scotland</option>
+				  <option value="wales">Wales</option>
+				  <option value="northern ireland">Northern Ireland</option>
+				  <option value="australia">Australia</option>
+				  <option value="canada">Canada</option>
+				  <option value="usa">USA</option>
+				</select>
+				<label for="subject">Subject</label>
+				<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+				<input type="submit" value="Submit">
+
+		  </form>
+	</div>
+	</body>
+</html>
