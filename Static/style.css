@@ -41,7 +41,8 @@ input[type=text], select, textarea {
   box-sizing: border-box; 
   margin-top: 6px; 
   margin-bottom: 16px;
-  resize: vertical 
+  resize: vertical;
+  background-color: #cccccc;
 }
 
 input[type=submit] {
@@ -56,6 +57,8 @@ input[type=submit] {
 input[type=submit]:hover {
   background-color: #45a049;
 }
+
+
 
 /* Other css stuff */ 
 a{
@@ -77,3 +80,48 @@ body {
 	text-align: center;
 } 
 
+#PyChat {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#PyChat p {
+	font-size: 25px;
+}
+
+#PyChat h2 {
+	font-size: 35px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.skill {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.python {width: 96%; background-color: #DCF507;} /* Yellow */
+.html {width: 90%; background-color: #04AA6D;} /* Green */
+.css {width: 80%; background-color: #2196F3;} /* Blue */
+.js {width: 50%; background-color: #f44336;} /* Red */
+.php {width: 20%; background-color: #808080;} /* Dark Grey */
